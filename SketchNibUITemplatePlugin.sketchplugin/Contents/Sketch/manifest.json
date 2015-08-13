@@ -1,0 +1,23 @@
+{
+  "commands" : [
+    {
+      "script" : "example_script.cocoascript",
+      "handler" : "onRun",
+      "shortcut" : "ctrl cmd u",
+      "name" : "Sketch Nib UI Example",
+      "identifier" : "example_script"
+    }
+  ],
+  "menu" : {
+    "items" : [
+      "example_script"
+    ],
+    "title" : "Sketch Nib UI Example"
+  },
+  "identifier" : "com.example.sketch.nibuiexample",
+  "version" : "1.0",
+  "description" : "",
+  "author" : "",
+  "authorEmail" : "",
+  "name" : "SketchNibUIExample"
+}

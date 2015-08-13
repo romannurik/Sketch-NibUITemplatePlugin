@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="7706"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="DummyNibOwner">
+            <connections>
+                <outlet property="exampleButton" destination="1Np-Dx-SCu" id="z90-Wm-Ugw"/>
+                <outlet property="exampleComboBox" destination="Tb5-3J-lop" id="tVF-po-emO"/>
+                <outlet property="exampleDisclosureButton" destination="Mps-u5-VGp" id="YU7-Bf-svi"/>
+                <outlet property="exampleLogView" destination="GNy-FS-88b" id="e4e-gT-6sW"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <tabView id="Dwt-dN-U06">
+            <rect key="frame" x="0.0" y="-1" width="300" height="280"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <font key="font" metaFont="system"/>
+            <tabViewItems>
+                <tabViewItem label="First Tab" identifier="1" id="ejf-Z7-OZr">
+                    <view key="view" id="Xd2-O6-CMM">
+                        <rect key="frame" x="10" y="33" width="280" height="234"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LRA-9k-sNG">
+                                <rect key="frame" x="15" y="214" width="139" height="17"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Example Combo Box:" id="Uf3-Ud-P4k">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <comboBox verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tb5-3J-lop">
+                                <rect key="frame" x="17" y="182" width="249" height="26"/>
+                                <comboBoxCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" numberOfVisibleItems="5" id="rPS-pK-X8L">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    <objectValues>
+                                        <string>Example first item</string>
+                                        <string>Example second item</string>
+                                        <string>Example third item</string>
+                                    </objectValues>
+                                </comboBoxCell>
+                            </comboBox>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Np-Dx-SCu">
+                                <rect key="frame" x="11" y="138" width="139" height="32"/>
+                                <buttonCell key="cell" type="push" title="Example Button" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="DxT-Iz-CQD">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                            </button>
+                        </subviews>
+                    </view>
+                </tabViewItem>
+                <tabViewItem label="Second Tab" identifier="2" id="wpT-iG-q0B">
+                    <view key="view" id="h8V-NX-GbZ">
+                        <rect key="frame" x="10" y="33" width="280" height="234"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mps-u5-VGp">
+                                <rect key="frame" x="17" y="216" width="13" height="13"/>
+                                <buttonCell key="cell" type="disclosureTriangle" bezelStyle="disclosure" imagePosition="above" alignment="left" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="deB-Ac-o8A">
+                                    <behavior key="behavior" pushIn="YES" changeBackground="YES" changeGray="YES" lightByContents="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                            </button>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GNy-FS-88b">
+                                <rect key="frame" x="17" y="68" width="246" height="138"/>
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="SaH-lJ-Qet">
+                                    <font key="font" metaFont="system"/>
+                                    <string key="title">Bacon ipsum dolor amet frankfurter beef ribs brisket capicola. Venison shoulder biltong hamburger cupim prosciutto, bacon spare ribs boudin cow. Sirloin t-bone bresaola, cupim drumstick leberkas hamburger capicola meatball doner picanha strip steak kevin bacon. Hamburger biltong ham hock, ham pork belly chuck capicola.
+
+</string>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f00-DY-mY3">
+                                <rect key="frame" x="29" y="212" width="102" height="21"/>
+                                <buttonCell key="cell" type="bevel" title="An expando" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="SKa-u8-2Hc">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="performClick:" target="Mps-u5-VGp" id="z5n-nX-x35"/>
+                                </connections>
+                            </button>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yRx-iy-A16">
+                                <rect key="frame" x="15" y="36" width="91" height="17"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Example icon:" id="NHP-9O-UTr">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oLE-KW-C4e">
+                                <rect key="frame" x="112" y="32" width="24" height="24"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="ExampleIcon" id="f0V-sA-hV9"/>
+                            </imageView>
+                        </subviews>
+                    </view>
+                </tabViewItem>
+            </tabViewItems>
+            <point key="canvasLocation" x="485" y="312"/>
+        </tabView>
+    </objects>
+    <resources>
+        <image name="ExampleIcon" width="48" height="48"/>
+    </resources>
+</document>
