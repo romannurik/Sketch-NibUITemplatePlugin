@@ -1,3 +1,5 @@
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 # Sketch Nib UI Template Plugin
 
 This repository contains a template/example Sketch plugin whose UI is built in Interface Builder (and output
