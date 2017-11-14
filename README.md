@@ -6,6 +6,10 @@ This repository contains a template/example Sketch plugin whose UI is built in I
 as a .nib file, hence the name). The .nib is then loaded in through CocoaScript using some pretty brittle
 hackery, so beware.
 
+# Updated version from aparajita
+
+There's an [updated version of `sketch-nibui.js`](https://github.com/aparajita/sketch-style-master/blob/master/src/lib/sketch-nibui.js) in aparajita's sketch-style-master project; check it out!
+
 # Screenshots
 
 <img src="https://raw.githubusercontent.com/romannurik/Sketch-NibUITemplatePlugin/master/art/screenshot_interface_builder.png" width="500" alt="Interface builder">
