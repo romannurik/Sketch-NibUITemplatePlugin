@@ -6,6 +6,13 @@ This repository contains a template/example Sketch plugin whose UI is built in I
 as a .nib file, hence the name). The .nib is then loaded in through CocoaScript using some pretty brittle
 hackery, so beware.
 
+# Updated library version for `skpm` users
+
+If you're using the fantastic [skpm](https://github.com/skpm/skpm) build tool for your plugin, there's a new,
+far-simplified way to do this:
+
+**[Get started with sketch-nibui](https://github.com/romannurik/sketch-nibui/tree/master)**
+
 # Updated version from aparajita
 
 There's an [updated version of `sketch-nibui.js`](https://github.com/aparajita/sketch-style-master/blob/master/src/lib/sketch-nibui.js) in aparajita's sketch-style-master project; check it out!
